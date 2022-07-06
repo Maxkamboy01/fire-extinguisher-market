@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <NavbarStyle className="container">
       <a href="/" className="logo">UYUTservis</a>
+      
       <ul>
         <li>
           <Link to="/">Home</Link>

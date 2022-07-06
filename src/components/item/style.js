@@ -10,6 +10,7 @@ export const Itemstyle = styled.div`
   justify-content: center;
   text-align: center;
   transition-duration: 0.4s;
+  overflow:hodden;
   h3 {
     font-size: 1.5vw;
     font-family: Helvetica, sans-serif;
