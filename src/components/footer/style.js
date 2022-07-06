@@ -21,12 +21,12 @@ export const MainFooterStyle = styled.div`
         li{
             &:hover{
                 img{
-                    margin-left: 0.3vw;
+                    margin-left: 0.1vw;
                 }
         a{
             
                 color:white;
-                margin-left: 3.3vw;
+                margin-left: 0.7vw;
             }
         }
     }

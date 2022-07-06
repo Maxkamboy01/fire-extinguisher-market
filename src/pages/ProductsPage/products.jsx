@@ -11,7 +11,7 @@ function products() {
         <div className="cover"></div>
         <h3>Products</h3>
       </Board>
-      <h3>Рекомендованные продукты только для вас</h3>
+      <h3>Рекомендованные  только для вас</h3>
       <section>
         <Item></Item>
         <Item></Item>

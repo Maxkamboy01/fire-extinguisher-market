@@ -3,17 +3,18 @@ import styled from "styled-components";
 export const Itemstyle = styled.div`
   width: 29vw;
   border: 1px solid #da112f;
-  padding: 8px 10px;
+  padding: 0.3vh 0.4vw;
   margin: 10px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   transition-duration: 0.4s;
-  overflow:hodden;
-  h3 {
-    font-size: 1.5vw;
+  overflow: hidden;
+  .h3 {
+    font-size: 2.2vw;
     font-family: Helvetica, sans-serif;
+    padding: 0;
     margin: 0;
   }
   .h4 {

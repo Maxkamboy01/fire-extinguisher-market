@@ -7,7 +7,7 @@ function item() {
   return (
     <Itemstyle>
       <img src={itemimg} alt="" />
-      <h3>Огнетушитель порошковый ОП-1</h3>
+      <h3 className="h3">Огнетушитель порошковый ОП-1</h3>
       <h4 className="h4">класс ABCЕ / 1 кг. с манометром</h4>
       <button className="contact">
         <Link to="/contact">связаться</Link>

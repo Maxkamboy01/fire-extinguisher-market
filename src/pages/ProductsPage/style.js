@@ -8,7 +8,7 @@ export const Productsstyle = styled.div`
   h3 {
     font-size: 2.4vw;
     font-weight: bold;
-    margin-left: 230px;
+    margin-left: 4.4vw;
   }
   section {
     display: flex;
@@ -19,7 +19,7 @@ export const Productsstyle = styled.div`
 `;
 
 export const Board = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@ export const Board = styled.div`
     .cover {
       margin-top: 0;
     }
-    h3{
+    h3 {
       color: #ddd;
       left: -100px;
     }
@@ -51,12 +51,11 @@ export const Board = styled.div`
   }
   h3 {
     position: absolute;
-    top: 340px;
-    left: 230px;
+    top: 33vh;
+    left: 52vw;
     font-size: 5.5vw;
     color: #ea1c3a;
     color: #ccc;
     transition-duration: 0.6s;
-    transition-delay: 0.3s;
   }
 `;
