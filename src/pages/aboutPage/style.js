@@ -4,7 +4,6 @@ import Aboutimg from "../../assets/images/about-bg.jpg";
 export const Aboutstyle = styled.div`
   width: 100vw;
   height: auto;
-  padding: 0;
 
   ul {
     font-size: 2.1vw;
