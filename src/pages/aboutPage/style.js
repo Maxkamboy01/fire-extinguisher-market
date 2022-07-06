@@ -9,6 +9,8 @@ export const Aboutstyle = styled.div`
   ul {
     font-size: 2.1vw;
     list-style: none;
+    padding: 0;
+    margin: 0;
     li {
       line-height: 1.9vw;
       font-size: 1.3vw;
