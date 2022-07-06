@@ -5,7 +5,10 @@ import { Aboutstyle, Board } from "./style";
 function AboutPage() {
   return (
     <Aboutstyle>
-      <Board>About</Board>
+      <Board>
+        <div className="cover"></div>
+        <h3 className="h3">About</h3>
+      </Board>
       <ul>
         Порошковые огнетушители
         <li>

@@ -14,7 +14,7 @@ export const HeaderStyle = styled.div`
   background-position: center;
   margin: 0 0 50px 0;
   h1 {
-    font-size: 55px;
+    font-size: 4.8vw;
     color: white;
     span {
       color: #f02b2b;

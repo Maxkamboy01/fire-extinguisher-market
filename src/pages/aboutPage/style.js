@@ -4,14 +4,14 @@ import Aboutimg from "../../assets/images/about-bg.jpg";
 export const Aboutstyle = styled.div`
   width: 100vw;
   height: auto;
-  padding: 0 90px;
+  padding: 0;
 
   ul {
-    font-size: 30px;
+    font-size: 2.1vw;
     list-style: none;
     li {
-      line-height: 30px;
-      font-size: 19px;
+      line-height: 1.9vw;
+      font-size: 1.3vw;
       margin: 10px 0;
       img {
         width: 20px;
@@ -21,15 +21,39 @@ export const Aboutstyle = styled.div`
 `;
 
 export const Board = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 70vh;
   background-image: url(${Aboutimg});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-size: 5em;
-  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .cover {
+      margin-top: 0px;
+    }
+    .h3 {
+      left: 60vw;
+    }
+  }
+  .h3 {
+    position: absolute;
+    font-size: 5.5vw;
+    top: 5vw;
+    left: 4.3vw;
+    transition-duration: 0.5s;
+    color: #ddd;
+  }
+  .cover {
+    width: 190vw;
+    height: 79vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-duration: 0.5s;
+    margin-top: 148vh;
+    display: flex;
+    align-items: center;
+  }
 `;

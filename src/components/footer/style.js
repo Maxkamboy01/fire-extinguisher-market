@@ -1,39 +1,39 @@
 import styled from "styled-components";
 
 export const MainFooterStyle = styled.div`
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: rgba(218,17,47,0.8);
   background-color: rgb(146, 146, 146);
   padding: 20px 130px 30px 130px;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  flex-wrap:wrap;
+  margin-top: 3vh;
   a{
     color:#ddd;
     transition-duration: 0.3s;
   }
   section {
-    width: 32%;
-    margin: 0 20px;
+    width: 26vw;
+    margin: 0.5vh 0.5vw;
     &:nth-child(2){
         li{
             &:hover{
                 img{
-                    margin-left: 6px;
+                    margin-left: 0.3vw;
                 }
         a{
             
                 color:white;
-                margin-left: 6px;
+                margin-left: 3.3vw;
             }
         }
     }
 
 }
     h4{
-        font-size: 30px;
-        margin: 0;
+        font-size: 2.3vw;
         color:#ddd;
         transition-duration: 0.3s;
         &:hover{
@@ -48,9 +48,9 @@ export const MainFooterStyle = styled.div`
         list-style:none;
         padding: 0;
       li {
-        margin: 17px 0;
+        margin: 1.3vh 0;
         margin-left:0
-        font-size: 17px;
+        font-size: 1.4vw;
         display:flex;
         align-items:center;
         .logofooter{
@@ -59,7 +59,7 @@ export const MainFooterStyle = styled.div`
             font-weight: bold;
         }
         img{
-            width: 20px;
+            width: 1.2vw;
             margin: auto 12px auto 0;
             transition-duration: 0.3s;
         }

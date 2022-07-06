@@ -4,10 +4,9 @@ import ProductBg from "../../assets/images/extin-bg.jpg";
 export const Productsstyle = styled.div`
   width: 100vw;
   height: auto;
-  border: 10xp solid red;
-  padding: 0px 130px;
+  padding: 0px;
   h3 {
-    font-size: 34px;
+    font-size: 2.4vw;
     font-weight: bold;
     margin-left: 230px;
   }
@@ -54,7 +53,7 @@ export const Board = styled.div`
     position: absolute;
     top: 340px;
     left: 230px;
-    font-size: 80px;
+    font-size: 5.5vw;
     color: #ea1c3a;
     color: #ccc;
     transition-duration: 0.6s;
