@@ -46,7 +46,6 @@ function Homepage() {
           </li>
         </ul>
       </Aboutlist>
-      {/* <Products /> */}
       <Itemswrapper>
         <h1>Популярные товары только у нас</h1>
         <section>

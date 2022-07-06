@@ -6,9 +6,9 @@ export const Homepagestyle = styled.div`
 `;
 
 export const Itemswrapper = styled.div`
-  width: 100%;
+  width: 100vw;
   height: auto;
-  padding: 0px 130px;
+  padding: 0px 1vw;
 
   section {
     display: flex;
@@ -18,13 +18,13 @@ export const Itemswrapper = styled.div`
 
   .moreproducts {
     width: auto;
-    padding: 10px 58px;
+    padding: 0.8vh 2.1vw;
     border-radius: 3px;
     text-align: center;
     border: 1px solid white;
     background-color: #da112f;
-    font-size: 18px;
-    margin: 40px auto 110px auto;
+    font-size: 1.3vw;
+    margin: 1.7vh auto 5vh auto;
     text-transform: uppercase;
     letter-spacing: 1px;
     display: flex;
@@ -44,16 +44,16 @@ export const Itemswrapper = styled.div`
 `;
 
 export const Aboutlist = styled.div`
-padding: 10px 100px;
+  padding: 0.7vh 2.1vw;
   ul {
-    font-size: 30px;
+    font-size: 2.1vw;
     list-style: none;
     li {
-      line-height: 30px;
-      font-size: 19px;
-      margin: 10px 0;
+      line-height: 1.7vw;
+      font-size: 1.3vw;
+      margin: 0.6vh 0;
       img {
-        width: 20px;
+        width: 1.3vw;
       }
     }
   }
