@@ -4,7 +4,7 @@ export const Itemstyle = styled.div`
   width: 29vw;
   border: 1px solid #da112f;
   padding: 0.3vh 0.4vw;
-  margin: 10px auto;
+  margin: 25px auto;
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -13,12 +13,10 @@ export const Itemstyle = styled.div`
   transition-duration: 0.4s;
   overflow: hidden;
   @media (max-width: 767px) {
-    color: green;
     width: 48vw;
   }
   @media (max-width: 512px) {
     width: 80vw;
-    color: purple;
   }
   .h3 {
     font-size: 2.2vw;

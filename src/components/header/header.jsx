@@ -5,14 +5,13 @@ function header() {
   return (
     <HeaderStyle>
       <h1>
-        Перезарядка огнетушителей в
-        <br />
+        Действуйте
         <span>
-          <mark>отличном</mark> 
-         </span> 
-         качестве
+          <mark>разумно,</mark>
+        </span>
+        <br />
+        оставайтесь в безопасности
       </h1>
-      
     </HeaderStyle>
   );
 }

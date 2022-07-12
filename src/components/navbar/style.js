@@ -1,14 +1,25 @@
 import styled from "styled-components";
 
+export const openMenu = styled.div`
+  left: 60vw;
+`;
+
 export const NavbarStyle = styled.div`
   height: 9vh;
-  background-color: rgba(255, 255, #2b2b32, 1);
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
   width: 100%;
   padding: 0px 5vw;
+  position: relative;
+  position:fixed;
+  top:o;
+  z-index:111;
+  background-color: rgba(255,255,255,0.5);
+  background-color:rgba(0,0,0,0.2);
+  backdrop-filter:blur(6px);
+  
   @media (max-width: 788px){
     height 7.5vh;
     padding: 0 3.5vw;
@@ -17,9 +28,10 @@ export const NavbarStyle = styled.div`
     height 6vh;
     padding: 0 2.4vw;
   }
+  
   .logo {
     font-size: 2.5vw;
-    color: #da112f;
+    color:#eee;
     letter-spacing: 1px;
     font-weight: 900;
     @media (max-width: 788px){
@@ -29,14 +41,14 @@ export const NavbarStyle = styled.div`
       font-size: 4.2vw;
     }
   }
-  ul {
+  .ul {
     display: flex;
     font-size: 1.4vw;
     @media (max-width: 788px){
       display:none;
     }
     li {
-      margin: auto   17px;
+      margin: auto  11px;
       &:hover {
         a {
           color: #f02b2b;
@@ -44,6 +56,7 @@ export const NavbarStyle = styled.div`
       }
       a {
         color: #da112f;
+        color:#eee;
         text-transform: capitalize;
         transition-duration: 0.3s;
       }
@@ -71,8 +84,61 @@ export const NavbarStyle = styled.div`
     }
   }
 
-  .burgermenu{
-    width: 50vw;
-  }
+  
+`;
 
+export const BurgerMenu = styled.div`
+  font-family: "Comfortaa", cursive;
+  width: 35vw;
+  height: 100vh;
+  background-color: rgba(218, 17, 47, 0.6);
+  backdrop-filter: blur(5px);
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: ${(props) => (props.isOpen ? "0" : "-35vw")};
+  transition-duration: 0.4s;
+  display: none;
+  @media (max-width: 788px) {
+    display: flex;
+  }
+  .burgermenu-icon {
+    width: 35px;
+    height: 45px;
+    margin-left: -60px;
+    margin: 1vh auto 1vh -60px;
+    cursor: pointer;
+
+    img {
+      width: 35px;
+      border-radius: 3px;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    border: none;
+    margin-right: auto;
+    font-size: 3.3vw;
+    color: white;
+    li {
+      margin: 15px 0;
+      padding: 20px 10px;
+      font-size: 2.2vw;
+      border-radius: 4px;
+      transition-duration: 0.4s;
+      &:hover {
+        background-color: rgba(218, 17, 47, 1);
+        background-color: #fff;
+        transform :scale(1.05);
+         a {
+          color: #da112f;
+        }
+      }
+      a {
+        color: white;
+      }
+    }
+  }
 `;

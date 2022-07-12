@@ -10,33 +10,32 @@ function Footer() {
   return (
     <MainFooterStyle>
       <section>
-        <h4>Communication</h4>
+        <h4>Связь</h4>
         <ul>
           <li className="logofooter">
-            <mark>UYUTservis</mark>
+            <mark>Angrenuyutservis</mark>
           </li>
-          <li>Tashkent</li>
+          <li>Ташкент</li>
           <li>
-            Чиланзар, кв-л 2, ул. АРНАСАЙ, д 26 (бывшая ул. Пионерская,
-            ориентир-ресторан "Арнасай")
+            г. Ангрен, кв-л 2/2.
           </li>
           <li>График работы: понедельник - суббота,(воскресенье - выходной)</li>
         </ul>
       </section>
       <section>
-        <h4>Our company</h4>
+        <h4>Наша компания</h4>
         <ul>
           <li>
             <img src={Compass} alt="" />
-            <Link to="/">Home</Link>
+            <Link to="/">Дом</Link>
           </li>
           <li>
             <img src={Compass} alt="" />
-            <Link to="/about">About us</Link>
+            <Link to="/about">О нас</Link>
           </li>
           <li>
             <img src={Compass} alt="" />
-            <Link to="/">Products</Link>
+            <Link to="/">Продукты</Link>
           </li>
           {/* <li>
             <Link to="/">Contacts</Link>
@@ -45,7 +44,7 @@ function Footer() {
       </section>
       <section>
         <h4>
-          <Link to="/contact">Contacts</Link>
+          <Link to="/contact">Контакты</Link>
         </h4>
         <ul>
           <li>

@@ -1,58 +1,72 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { NavbarStyle } from "./style";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  solid,
-  regular,
-  brands,
-} from "@fortawesome/fontawesome-svg-core/import.macro";
+import Menu from "../../assets/images/menu-white.png";
+import { BurgerMenu, NavbarStyle } from "./style";
 
-function Navbar() {
-  module.exports = function (api) {
-    return {
-      plugins: ["macros"],
+
+class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      navbaropen: false,
     };
-  };
-  module.exports = {
-    "fontawesome-svg-core": {
-      license: "free",
-    },
+
+  }
+  render(){
+  const navbarhendler = () => {
+    this.setState({
+      navbaropen: !this.state.navbaropen,
+    });
   };
 
   return (
     <NavbarStyle className="container">
       <a href="/" className="logo">
-        UYUTservis
+        Angrenuyutservis
       </a>
 
-      <ul>
+      <ul className="ul">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Дом</Link>
         </li>
         <li>
-          <Link to="/about">about</Link>
+          <Link to="/about">О нас</Link>
         </li>
         <li>
-          <Link to="/product">products</Link>
+          <Link to="/product">Продукты</Link>
         </li>
         <li>
-          <Link to="/contact">contacts</Link>
+          <Link to="/contact">Контакты</Link>
         </li>
         <li>
           <button>
-            <a href="tel:+998933897880">998 (93) 389-78-80</a>
+            <a href="tel:+998994897880">998 (99) 489-78-80</a>
           </button>
         </li>
       </ul>
-      <div className="burgermenu">
+      <BurgerMenu isOpen={this.state.navbaropen} className="burgermenu">
         {/* <FontAwesomeIcon icon="far fa-fire-extinguisher" /> */}
-        <div className="burgermenu-icon">
-
+        <div onClick={navbarhendler} className="burgermenu-icon">
+          <img src={Menu} alt="" />
         </div>
-      </div>
+        <ul>
+          Angrenuyutservis
+          <li>
+            <Link to="/">Дом</Link>
+          </li>
+          <li>
+            <Link to="/about">О нас</Link>
+          </li>
+          <li>
+            <Link to="/product">Продукты</Link>
+          </li>
+          <li>
+            <Link to="/contact">Контакты</Link>
+          </li>
+        </ul>
+      </BurgerMenu>
     </NavbarStyle>
-  );
+  )}
 }
 
 export default Navbar;
