@@ -12,7 +12,9 @@ function Footer() {
       <section>
         <h4>Communication</h4>
         <ul>
-          <li className="logofooter">UYUTservis</li>
+          <li className="logofooter">
+            <mark>UYUTservis</mark>
+          </li>
           <li>Tashkent</li>
           <li>
             Чиланзар, кв-л 2, ул. АРНАСАЙ, д 26 (бывшая ул. Пионерская,

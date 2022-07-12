@@ -31,6 +31,12 @@ export const Itemswrapper = styled.div`
     display: flex;
     justify-content: center;
     transition-duration: 0.4s;
+    @media (max-width: 788px) {
+      font-size: 2.7vw;
+    }
+    @media (max-width: 512px) {
+      font-size: 4vw;
+    }
     a {
       color: white;
     }
@@ -49,12 +55,34 @@ export const Aboutlist = styled.div`
   ul {
     font-size: 2.1vw;
     list-style: none;
+    @media (max-width: 788px) {
+      font-size: 3.6vw;
+    }
+    @media (max-width: 512px) {
+      font-size: 4.8vw;
+    }
     li {
       line-height: 1.7vw;
       font-size: 1.3vw;
       margin: 0.6vh 0;
+      @media (max-width: 788px) {
+        font-size: 2.7vw;
+        line-height: 3.9vh;
+        margin: 1.2vh 0;
+      }
+      @media (max-width: 512px) {
+        font-size: 3.9vw;
+        line-height: 4.6vh;
+        margin: 1.4vh 0;
+      }
       img {
         width: 1.3vw;
+        @media (max-width: 788px) {
+          width: 2.2vw;
+        }
+        @media (max-width: 512px) {
+          width: 3.3vw;
+        }
       }
     }
   }

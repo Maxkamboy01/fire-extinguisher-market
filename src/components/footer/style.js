@@ -8,8 +8,16 @@ export const MainFooterStyle = styled.div`
   padding: 20px 130px 30px 130px;
   display: flex;
   justify-content: space-between;
-  flex-wrap:wrap;
   margin-top: 3vh;
+  @media (max-width: 788px) {
+      flex-wrap:wrap;
+      padding: 15px 50px 20px 50px;
+      
+    }
+    @media (max-width: 512px) {
+      flex-wrap:wrap;
+      padding: 15px 50px 20px 50px;
+  }
   a{
     color:#ddd;
     transition-duration: 0.3s;
@@ -17,6 +25,27 @@ export const MainFooterStyle = styled.div`
   section {
     width: 26vw;
     margin: 0.5vh 0.5vw;
+    mark{
+        background-color: #da112f;
+        color:white;
+        font-size: 1.6vw;
+        font-weight:bold;
+        padding: 0 0.2vw;
+        @media (max-width: 788px){
+            font-size: 2.6vw;
+
+        }
+        @media (max-width: 512px){
+            font-size: 3.5vw;
+        }
+    }
+
+    @media (max-width: 788px) {
+        width: 40vw;
+    }
+    @media (max-width: 512px) {
+        width: 80vw;
+    }
     &:nth-child(2){
         li{
             &:hover{
@@ -36,6 +65,12 @@ export const MainFooterStyle = styled.div`
         font-size: 2.3vw;
         color:#ddd;
         transition-duration: 0.3s;
+        @media (max-width: 788px) {
+            font-size: 3vw;
+          }
+          @media (max-width: 512px) {
+            font-size: 4vw;
+          }
         &:hover{
             color: #EA1C3A;
             a{
@@ -53,15 +88,23 @@ export const MainFooterStyle = styled.div`
         font-size: 1.4vw;
         display:flex;
         align-items:center;
-        .logofooter{
-            color:#444;
-            font-size: 20px;
-            font-weight: bold;
+        @media (max-width: 788px){
+            font-size: 2.2vw;
         }
+        @media (max-width: 512px){
+            font-size: 3.2vw;
+        }
+        
         img{
             width: 1.2vw;
             margin: auto 12px auto 0;
             transition-duration: 0.3s;
+            @media(max-width: 788px){
+                width: 2.4vw;
+            }
+            @media(max-width: 512px){
+                width: 3.2vw;
+            }
         }
         a {
             color: black;

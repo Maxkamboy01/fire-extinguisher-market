@@ -9,6 +9,13 @@ export const Productsstyle = styled.div`
     font-size: 2.4vw;
     font-weight: bold;
     margin-left: 4.4vw;
+    margin-bottom: 0vh;
+    @media (max-width: 788px) {
+      font-size: 3.3vw;
+    }
+    @media (max-width: 512px) {
+      font-size: 4.2vw;
+    }
   }
   section {
     display: flex;
@@ -30,6 +37,12 @@ export const Board = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  @media (max-width: 788px) {
+    height: 55vh;
+  }
+  @media (max-width: 512px) {
+    height: 45vh;
+  }
   &:hover {
     .cover {
       margin-top: 0;
@@ -57,5 +70,11 @@ export const Board = styled.div`
     color: #ea1c3a;
     color: #ccc;
     transition-duration: 0.6s;
+    @media (max-width: 788px) {
+      font-size: 6.5vw;
+    }
+    @media (max-width: 512px) {
+      font-size: 7vw;
+    }
   }
 `;

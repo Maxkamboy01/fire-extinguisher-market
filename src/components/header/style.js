@@ -13,15 +13,26 @@ export const HeaderStyle = styled.div`
   background-size: cover;
   background-position: center;
   margin: 0 0 50px 0;
+  @media (max-width: 788px) {
+    height: 55vh;
+  }
+  @media (max-width: 512px) {
+    height: 45vh;
+  }
   h1 {
     font-size: 4.8vw;
     color: white;
+    @media (max-width: 788px) {
+      font-size: 6.5vw;
+    }
+    @media (max-width: 512px) {
+      font-size: 7vw;
+    }
     span {
       color: #f02b2b;
     }
   }
-  mark{
+  mark {
     color: #333;
   }
-  
 `;

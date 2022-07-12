@@ -9,15 +9,32 @@ export const NavbarStyle = styled.div`
   font-weight: bold;
   width: 100%;
   padding: 0px 5vw;
+  @media (max-width: 788px){
+    height 7.5vh;
+    padding: 0 3.5vw;
+  }
+  @media (max-width: 512){
+    height 6vh;
+    padding: 0 2.4vw;
+  }
   .logo {
     font-size: 2.5vw;
     color: #da112f;
     letter-spacing: 1px;
     font-weight: 900;
+    @media (max-width: 788px){
+      font-size: 3.3vw;
+    }
+    @media (max-width: 512px){
+      font-size: 4.2vw;
+    }
   }
   ul {
     display: flex;
     font-size: 1.4vw;
+    @media (max-width: 788px){
+      display:none;
+    }
     li {
       margin: auto   17px;
       &:hover {
@@ -53,4 +70,9 @@ export const NavbarStyle = styled.div`
       }
     }
   }
+
+  .burgermenu{
+    width: 50vw;
+  }
+
 `;
