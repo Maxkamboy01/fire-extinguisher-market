@@ -47,6 +47,7 @@ export const NavbarStyle = styled.div`
     @media (max-width: 788px){
       display:none;
     }
+    
     li {
       margin: auto  11px;
       &:hover {
@@ -102,6 +103,10 @@ export const BurgerMenu = styled.div`
   @media (max-width: 788px) {
     display: flex;
   }
+  @media (max-width: 512px) {
+    width: 40vw;
+  }
+
   .burgermenu-icon {
     width: 35px;
     height: 45px;
@@ -122,17 +127,23 @@ export const BurgerMenu = styled.div`
     margin-right: auto;
     font-size: 3.3vw;
     color: white;
+    @media (max-width: 512px) {
+      font-size: 3.8vw;
+    }
     li {
       margin: 15px 0;
       padding: 20px 10px;
       font-size: 2.2vw;
       border-radius: 4px;
       transition-duration: 0.4s;
+      @media (max-width: 512px) {
+        font-size: 3vw;
+      }
       &:hover {
         background-color: rgba(218, 17, 47, 1);
         background-color: #fff;
-        transform :scale(1.05);
-         a {
+        transform: scale(1.05);
+        a {
           color: #da112f;
         }
       }
