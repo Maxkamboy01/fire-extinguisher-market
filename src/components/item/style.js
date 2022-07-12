@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Itemstyle = styled.div`
-  width: 29vw;
+  width: 400px;
   border: 1px solid #da112f;
   padding: 0.3vh 0.4vw;
   margin: 10px auto;

@@ -12,6 +12,7 @@ export const Itemswrapper = styled.div`
 
   section {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
