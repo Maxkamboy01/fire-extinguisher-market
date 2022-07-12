@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/fire-extinguisher-market/static/css/main.bcc1e54c.chunk.css",
-    "main.js": "/fire-extinguisher-market/static/js/main.4e643a4a.chunk.js",
-    "main.js.map": "/fire-extinguisher-market/static/js/main.4e643a4a.chunk.js.map",
-    "runtime-main.js": "/fire-extinguisher-market/static/js/runtime-main.66ae24cf.js",
-    "runtime-main.js.map": "/fire-extinguisher-market/static/js/runtime-main.66ae24cf.js.map",
-    "static/js/2.cbbf88d7.chunk.js": "/fire-extinguisher-market/static/js/2.cbbf88d7.chunk.js",
-    "static/js/2.cbbf88d7.chunk.js.map": "/fire-extinguisher-market/static/js/2.cbbf88d7.chunk.js.map",
-    "static/js/3.e9f2fa0e.chunk.js": "/fire-extinguisher-market/static/js/3.e9f2fa0e.chunk.js",
-    "static/js/3.e9f2fa0e.chunk.js.map": "/fire-extinguisher-market/static/js/3.e9f2fa0e.chunk.js.map",
+    "main.js": "/fire-extinguisher-market/static/js/main.e5839135.chunk.js",
+    "main.js.map": "/fire-extinguisher-market/static/js/main.e5839135.chunk.js.map",
+    "runtime-main.js": "/fire-extinguisher-market/static/js/runtime-main.c999b19c.js",
+    "runtime-main.js.map": "/fire-extinguisher-market/static/js/runtime-main.c999b19c.js.map",
+    "static/js/2.07d8dcd6.chunk.js": "/fire-extinguisher-market/static/js/2.07d8dcd6.chunk.js",
+    "static/js/2.07d8dcd6.chunk.js.map": "/fire-extinguisher-market/static/js/2.07d8dcd6.chunk.js.map",
+    "static/js/3.d04072a7.chunk.js": "/fire-extinguisher-market/static/js/3.d04072a7.chunk.js",
+    "static/js/3.d04072a7.chunk.js.map": "/fire-extinguisher-market/static/js/3.d04072a7.chunk.js.map",
     "index.html": "/fire-extinguisher-market/index.html",
     "static/css/main.bcc1e54c.chunk.css.map": "/fire-extinguisher-market/static/css/main.bcc1e54c.chunk.css.map",
-    "static/js/2.cbbf88d7.chunk.js.LICENSE.txt": "/fire-extinguisher-market/static/js/2.cbbf88d7.chunk.js.LICENSE.txt",
+    "static/js/2.07d8dcd6.chunk.js.LICENSE.txt": "/fire-extinguisher-market/static/js/2.07d8dcd6.chunk.js.LICENSE.txt",
     "static/media/about-bg.59d11206.jpg": "/fire-extinguisher-market/static/media/about-bg.59d11206.jpg",
     "static/media/compass.3b900ac1.png": "/fire-extinguisher-market/static/media/compass.3b900ac1.png",
     "static/media/email.ddc89095.png": "/fire-extinguisher-market/static/media/email.ddc89095.png",
@@ -21,9 +21,9 @@
     "static/media/item.8f39cc25.png": "/fire-extinguisher-market/static/media/item.8f39cc25.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.66ae24cf.js",
-    "static/js/2.cbbf88d7.chunk.js",
+    "static/js/runtime-main.c999b19c.js",
+    "static/js/2.07d8dcd6.chunk.js",
     "static/css/main.bcc1e54c.chunk.css",
-    "static/js/main.4e643a4a.chunk.js"
+    "static/js/main.e5839135.chunk.js"
   ]
 }
