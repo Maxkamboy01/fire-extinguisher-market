@@ -105,6 +105,8 @@ export const BurgerMenu = styled.div`
   }
   @media (max-width: 512px) {
     width: 40vw;
+    right: ${(props) => (props.isOpen ? "0" : "-40vw")};
+
   }
 
   .burgermenu-icon {
