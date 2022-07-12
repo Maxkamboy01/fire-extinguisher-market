@@ -8,6 +8,7 @@ import Navbar from "../../components/navbar";
 import AboutPage from "../aboutPage";
 import Products from "../ProductsPage/products";
 import Footer from "../../components/footer";
+import ContactPage from "../contactPage/contact";
 function Mainpage() {
   return (
     <MainPageStyle>
@@ -17,7 +18,7 @@ function Mainpage() {
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
           <Route path="/product" element={<Products />}></Route>
-          {/* <Route path="/contact" element={}></Route> */}
+          <Route path="/contact" element={<ContactPage/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

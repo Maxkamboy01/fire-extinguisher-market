@@ -20,5 +20,8 @@ export const HeaderStyle = styled.div`
       color: #f02b2b;
     }
   }
+  mark{
+    color: #333;
+  }
   
 `;

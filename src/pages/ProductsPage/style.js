@@ -36,12 +36,12 @@ export const Board = styled.div`
     }
     h3 {
       color: #ddd;
-      left: -100px;
+      left: 2.2vw;
     }
   }
   .cover {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 100vw;
     height: 70vh;
     display: flex;
     align-items: center;
