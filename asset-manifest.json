@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fire-extinguisher-market/static/css/main.bcc1e54c.chunk.css",
-    "main.js": "/fire-extinguisher-market/static/js/main.2e6892bd.chunk.js",
-    "main.js.map": "/fire-extinguisher-market/static/js/main.2e6892bd.chunk.js.map",
+    "main.js": "/fire-extinguisher-market/static/js/main.d9987555.chunk.js",
+    "main.js.map": "/fire-extinguisher-market/static/js/main.d9987555.chunk.js.map",
     "runtime-main.js": "/fire-extinguisher-market/static/js/runtime-main.c999b19c.js",
     "runtime-main.js.map": "/fire-extinguisher-market/static/js/runtime-main.c999b19c.js.map",
     "static/js/2.889fba9f.chunk.js": "/fire-extinguisher-market/static/js/2.889fba9f.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.c999b19c.js",
     "static/js/2.889fba9f.chunk.js",
     "static/css/main.bcc1e54c.chunk.css",
-    "static/js/main.2e6892bd.chunk.js"
+    "static/js/main.d9987555.chunk.js"
   ]
 }
