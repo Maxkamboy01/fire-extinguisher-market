@@ -1,29 +1,36 @@
 {
   "files": {
     "main.css": "/fire-extinguisher-market/static/css/main.bcc1e54c.chunk.css",
-    "main.js": "/fire-extinguisher-market/static/js/main.7ef1eecf.chunk.js",
-    "main.js.map": "/fire-extinguisher-market/static/js/main.7ef1eecf.chunk.js.map",
+    "main.js": "/fire-extinguisher-market/static/js/main.ff78e0a1.chunk.js",
+    "main.js.map": "/fire-extinguisher-market/static/js/main.ff78e0a1.chunk.js.map",
     "runtime-main.js": "/fire-extinguisher-market/static/js/runtime-main.c999b19c.js",
     "runtime-main.js.map": "/fire-extinguisher-market/static/js/runtime-main.c999b19c.js.map",
-    "static/js/2.07d8dcd6.chunk.js": "/fire-extinguisher-market/static/js/2.07d8dcd6.chunk.js",
-    "static/js/2.07d8dcd6.chunk.js.map": "/fire-extinguisher-market/static/js/2.07d8dcd6.chunk.js.map",
+    "static/js/2.889fba9f.chunk.js": "/fire-extinguisher-market/static/js/2.889fba9f.chunk.js",
+    "static/js/2.889fba9f.chunk.js.map": "/fire-extinguisher-market/static/js/2.889fba9f.chunk.js.map",
     "static/js/3.d04072a7.chunk.js": "/fire-extinguisher-market/static/js/3.d04072a7.chunk.js",
     "static/js/3.d04072a7.chunk.js.map": "/fire-extinguisher-market/static/js/3.d04072a7.chunk.js.map",
     "index.html": "/fire-extinguisher-market/index.html",
     "static/css/main.bcc1e54c.chunk.css.map": "/fire-extinguisher-market/static/css/main.bcc1e54c.chunk.css.map",
-    "static/js/2.07d8dcd6.chunk.js.LICENSE.txt": "/fire-extinguisher-market/static/js/2.07d8dcd6.chunk.js.LICENSE.txt",
+    "static/js/2.889fba9f.chunk.js.LICENSE.txt": "/fire-extinguisher-market/static/js/2.889fba9f.chunk.js.LICENSE.txt",
     "static/media/about-bg.59d11206.jpg": "/fire-extinguisher-market/static/media/about-bg.59d11206.jpg",
     "static/media/compass.3b900ac1.png": "/fire-extinguisher-market/static/media/compass.3b900ac1.png",
     "static/media/email.ddc89095.png": "/fire-extinguisher-market/static/media/email.ddc89095.png",
     "static/media/extin-bg.1cfd4e58.jpg": "/fire-extinguisher-market/static/media/extin-bg.1cfd4e58.jpg",
     "static/media/fire-bg.9548cb28.jpg": "/fire-extinguisher-market/static/media/fire-bg.9548cb28.jpg",
     "static/media/flames.a585abd3.png": "/fire-extinguisher-market/static/media/flames.a585abd3.png",
-    "static/media/item.8f39cc25.png": "/fire-extinguisher-market/static/media/item.8f39cc25.png"
+    "static/media/free-icon-cancel-179429.2c27954c.png": "/fire-extinguisher-market/static/media/free-icon-cancel-179429.2c27954c.png",
+    "static/media/item.8f39cc25.png": "/fire-extinguisher-market/static/media/item.8f39cc25.png",
+    "static/media/op01_02_03.bc4b8ddf.jpg": "/fire-extinguisher-market/static/media/op01_02_03.bc4b8ddf.jpg",
+    "static/media/op100.20c490ee.jpg": "/fire-extinguisher-market/static/media/op100.20c490ee.jpg",
+    "static/media/op25.6d1676f7.jpg": "/fire-extinguisher-market/static/media/op25.6d1676f7.jpg",
+    "static/media/op4_5_6.7bb80174.jpg": "/fire-extinguisher-market/static/media/op4_5_6.7bb80174.jpg",
+    "static/media/op50.8c941b24.jpg": "/fire-extinguisher-market/static/media/op50.8c941b24.jpg",
+    "static/media/op8_10.9af520bf.jpg": "/fire-extinguisher-market/static/media/op8_10.9af520bf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c999b19c.js",
-    "static/js/2.07d8dcd6.chunk.js",
+    "static/js/2.889fba9f.chunk.js",
     "static/css/main.bcc1e54c.chunk.css",
-    "static/js/main.7ef1eecf.chunk.js"
+    "static/js/main.ff78e0a1.chunk.js"
   ]
 }
